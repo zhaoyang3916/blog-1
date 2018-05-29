@@ -1,0 +1,21 @@
+/* sidebar 样式优化 */
+.sidebar li {
+    margin-top: 0;
+    margin-bottom: 0;
+    cursor: pointer;
+    padding-left: 15px;
+    margin-left: 0;
+    font-weight: bold;
+}
+
+.sidebar li a {
+    padding-bottom: 6px;
+    font-weight: normal;
+}
+
+.sidebar li.folder-wrapper > a,
+.sidebar li a.folder {
+    font-weight: bold;
+    font-size: 18px;
+}
+
